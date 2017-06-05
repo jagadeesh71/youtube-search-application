@@ -1,0 +1,82 @@
+body {
+    background-color: #343d46;
+}
+
+.change-css {
+    background-color: #fff;
+}
+
+.margin-top {
+    margin-top: 30px;
+}
+
+.ellipses {
+    display: -webkit-box;
+    font-size: 17px;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-style: italic;
+}
+
+.ellipses-for-anchor {
+    display: -webkit-box;
+    font-size: 17px;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-style: italic;
+}
+
+.anchor-div {
+    position: relative;
+    color: white;
+    background-color: #106544;
+    text-align: center;
+}
+.anchor-tag {
+    color: white;
+    text-decoration: underline;
+}
+
+.anchor-tag:hover,
+.anchor-tag:visited{
+    color: white;
+}
+
+.float-left {
+    float: left;
+}
+
+.img-width {
+    width: 390px;
+}
+
+.center {
+    text-align: center;
+}
+
+.margin-top-1 {
+    margin-top: 1%;
+}
+
+.pagination a {
+    margin-left: 5px;
+    background-color: white;
+    width: 84px;
+    color: black;
+    padding: 3px;
+    cursor: pointer;
+    text-decoration: none
+}
+
+.margin-top-10 {
+    margin-top: 10px;   
+}
+
+.active {
+    font-weight: bold;
+    color: red !important;
+}
